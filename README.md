@@ -13,10 +13,8 @@ Have an OpenAI key
 ## Run
 
 ```bash
-# start Quarkus
-QUARKUS_LANGCHAIN4J_OPENAI_API_KEY=your-key mvn quarkus:dev
-# hit the endpoint
-curl http://localhost:8080/image/describe
+# run the app
+QUARKUS_LANGCHAIN4J_OPENAI_API_KEY=your-key ./jbang src/main.java
 ```
 
 The result should be:
